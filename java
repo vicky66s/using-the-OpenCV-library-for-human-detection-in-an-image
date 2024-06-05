@@ -14,7 +14,7 @@ public class HumanDetection {
         // Load the pre-trained Haar cascade classifier for human detection
         CascadeClassifier detector = new CascadeClassifier("haarcascade_upperbody.xml");
 
-        // Read the input image
+        // Read the input image.52
         Mat img = Imgcodecs.imread("image.jpg");
 
         // Convert the image to grayscale
