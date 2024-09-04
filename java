@@ -8,7 +8,7 @@ import org.opencv.objdetect.CascadeClassifier;
 
 public class HumanDetection {
     public static void main(String[] args) {
-        // Load OpenCV library24302
+        // Load OpenCV library243020000000000000
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
 
         // Load the pre-trained Haar cascade classifier for human detection
