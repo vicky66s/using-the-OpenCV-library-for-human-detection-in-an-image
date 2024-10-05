@@ -1,3 +1,4 @@
+// 243020000000000000
 import org.opencv.core.Core;
 import org.opencv.core.Mat;
 import org.opencv.core.MatOfRect;
@@ -8,7 +9,7 @@ import org.opencv.objdetect.CascadeClassifier;
 
 public class HumanDetection {
     public static void main(String[] args) {
-        // Load OpenCV library243020000000000000
+        // Load OpenCV library
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
 
         // Load the pre-trained Haar cascade classifier for human detection
